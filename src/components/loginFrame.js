@@ -3,11 +3,15 @@ import React from "react"
 function Loginframe(){
     return(
         <div>
-            <title>Page Title</title>
-            <div style={{ backgroundImage: "url(https://colorlib.com/etc/lf/Login_v16/images/bg-01.jpg)",
-      width: "100%",
-      minHeight: "100vh",
-    }} />
+            <div style={{ backgroundImage: "url(https://raw.githubusercontent.com/ethicalakhilesh/krishanentp/master/public/images/login-bgnd.jpg)",
+                width: "100%",
+                minHeight: "100vh",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover",
+                position: "relative",
+                padding: 15,
+            }} />
         </div>
     );
 }
