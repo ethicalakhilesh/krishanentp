@@ -1,3 +1,34 @@
+.loginContainer{
+    background-image: url(https://raw.githubusercontent.com/ethicalakhilesh/krishanentp/master/public/images/login-bgnd.jpg);
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative
+}
+
+.formbg {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,.65);
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.formlogin {
+    width:70%;
+    max-width: 400px;
+    background-Color: white;
+    color: white;
+    border: 1px solid white;
+    border-Radius: 15px;
+    box-shadow: 3px 3px 10px tomato;
+}
+
 .loginBanner{
     display: flex;
     width:70%;
@@ -13,4 +44,29 @@
     border-radius: 15px;
     text-align: center;
     border: 0;
+    font-size: 25px;
+    padding: 2px;
+    box-shadow: 2px 2px 5px;
+}
+
+.login-btn{
+    display: flex;
+    margin-right:35%;
+    margin-left:35%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 150px;
+    width:30%;
+    background-color: green;
+    text-align: center;
+    color: white;
+    border-radius:15px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 15px black;
+}
+
+.designer{
+    color: black;
+    font-size: 8px;
+    padding: 7px;
 }
