@@ -1,4 +1,5 @@
 import React from "react"
+import "../styles/loginFrame.css"
 
 function Loginframe() {
     return (
@@ -33,10 +34,12 @@ function Loginframe() {
                             border: "1px solid white",
                             borderRadius: 15,
                         }}>
-                            <img src="https://raw.githubusercontent.com/ethicalakhilesh/krishanentp/master/public/images/krishanentp.jpg" 
-                            style={{
-                                maxWidth: "100%",
-                            }} />
+                            <img className="loginBanner" src="https://raw.githubusercontent.com/ethicalakhilesh/krishanentp/master/public/images/krishanentp.jpg" 
+                            alt="krishan-enterprises"/>
+                            <form>
+                                <input type="text" className="loginput" placeholder="username" />
+                                <input type="password" className="loginput" placeholder="password" />
+                            </form>
                         </div>
                 </div>
             </div>

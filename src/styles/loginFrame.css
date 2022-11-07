@@ -1,0 +1,16 @@
+.loginBanner{
+    display: flex;
+    width:70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.loginput{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-align: center;
+    border: 0;
+}
