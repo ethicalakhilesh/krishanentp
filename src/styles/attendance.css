@@ -1,0 +1,9 @@
+.attendArea{
+    padding: 2.5%;
+    display: flex;
+}
+
+.portion{
+    padding: 2.5%;
+    width: 50%
+}

@@ -4,12 +4,14 @@ import './App.css'
 import Loginframe from './components/loginFrame';
 import Dashboard from './components/dashboard';
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Attendance from './components/attendance';
 
 function App() {
   return (
     <div>
-      < Loginframe />
+      <Loginframe />
       <Dashboard />
+      <Attendance />
     </div>
   );
 }
