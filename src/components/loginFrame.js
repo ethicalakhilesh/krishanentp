@@ -22,4 +22,4 @@ function Loginframe() {
     );
 }
 
-export default Loginframe;
+export default Loginframe
