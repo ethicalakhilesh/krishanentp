@@ -1,34 +1,20 @@
 .billSoft{
-    padding: 5%;
+    padding: 2%;
     width: 100%;
 }
 
-.billingImg{
-    display: flex;
-    margin-right: calc(50% - 150px);
-    margin-left: calc(50% - 150px);
-}
-
 .custDetails{
-    width: 60%;
-    margin:2.5%;
+    width: 74%;
+    margin:2%;
     float:left;
     padding: 1%
-}
-
-.billDetail{
-    width:30%;
-    padding: 1%;
-    margin: 2.5%    ;
 }
 
 .avc{
     justify-content: space-between;
     display: flex;
     text-align: center;
-        background-color: rgba(77, 13, 13, 0);
-        color: #000000;
-
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .intBill{
@@ -41,4 +27,40 @@
     width:30%;
     display:flex;
     float:left
+}
+
+.billDetail{
+    width:20%;
+    padding: 1%;
+    margin: 2%    ;
+}
+
+.billingImg{
+    width: 100%;
+}
+
+.productDetail{
+    width: 74%;
+    margin:2%;
+    margin-top: 0;
+    float:left;
+    padding: 1%
+}
+
+.addinfo{
+    margin-top: 0;
+    min-height: 60vh;
+}
+
+.taxArea{
+    display: flex;
+    float: left;
+}
+
+.taxTitle{
+    width:40%
+}
+
+.taxVal{
+    width:60%
 }

@@ -1,0 +1,67 @@
+.billSoft{
+    padding: 2%;
+    width: 100%;
+}
+
+.billingImg{
+    display: flex;
+    margin-right: calc(50% - 50px);
+    margin-left: calc(50% - 50px);
+}
+
+.custDetails{
+    width: 62.5%;
+    margin:2.5%;
+    float:left;
+    padding: 1%
+}
+
+.billDetail{
+    width:30%;
+    padding: 1%;
+    margin: 2.5%    ;
+}
+
+.avc{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    background-color: rgba(77, 13, 13, 0);
+}
+
+.intBill{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.smallInput{
+    width:30%;
+    display:flex;
+    float:left
+}
+
+.productDet{
+    margin:2.5%;
+    margin-top:0;
+    margin-bottom: 0;
+}
+
+.quickresponse{
+    width: 120px;;
+    margin:2.5%;
+    float: left;
+    padding:10px
+}
+
+.dynamicQR{
+    width: 150px;
+    padding-top: 10px;
+}
+
+
+.taxing{
+    width:30%;
+    padding: 1%;
+    margin: 2.5%  
+}
