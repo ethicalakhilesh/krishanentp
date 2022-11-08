@@ -3,7 +3,10 @@
     display: flex;
 }
 
-.portion{
-    padding: 2.5%;
-    width: 50%
+.attendForm{
+    padding:15px
+}
+
+.empDetails{
+    padding:15px
 }
