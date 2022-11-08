@@ -4,6 +4,8 @@ import './App.css'
 import Loginframe from './components/loginFrame';
 import Dashboard from './components/dashboard';
 import Attendance from './components/attendance';
+import Billing from './components/billing';
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
@@ -12,6 +14,7 @@ function App() {
       <Loginframe />
       <Dashboard />
       <Attendance />
+      <Billing/>
     </div>
   );
 }
